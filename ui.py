@@ -116,5 +116,3 @@ class QuizInterface:
             self.buttons[current_correct].config(bg="Green")
         self.buttons[btn_id].config(bg=color)
         self.window.after(1000, func=self.get_next_question)
-
-
